@@ -43,6 +43,10 @@
                 <behavior>Edit</behavior>
                 <field>NumberOfEmployees</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Top_10__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -399,6 +403,7 @@
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>
         
+        
         <fields>ACTIVITY.TASK</fields>
         <fields>TASK.DUE_DATE</fields>
         <fields>TASK.STATUS</fields>
@@ -409,6 +414,7 @@
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>
+        
         
         <fields>ACTIVITY.TASK</fields>
         <fields>TASK.DUE_DATE</fields>
